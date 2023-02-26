@@ -1,0 +1,8 @@
+Ink application
+
+version 0
+
+
+author: Boris Spremo
+starting date: 15. february 2023.
+end-date: 
