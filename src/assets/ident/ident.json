@@ -1,0 +1,16 @@
+{
+    "lang": {
+        "id": "en",
+        "name": "English"
+    },
+    "company_name": "Ink inc.",
+    "logo": "4u_logo.png",
+    "elements_per_page": 2,
+
+    "language": [
+        { "key": "en", "value": "English" },
+        { "key": "es", "value": "Español" },
+        { "key": "fr", "value": "Français"},
+        { "key": "de", "value": "Deutsch" },
+        { "key": "sr", "value": "Srpski" }]
+}

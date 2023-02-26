@@ -1,0 +1,110 @@
+@import '../../assets/ident/ident.scss';
+
+$main-font: Avenir, Helvetica, Arial, sans-serif;
+
+.btn {
+  height: 40px;
+  min-width: 120px;
+  border-radius: 7px;
+  font-family: $main-font;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.blank-btn {
+  border: 0;
+  background-color: transparent;
+  color: $tertiary-color;
+  cursor: pointer;
+}
+
+.arrow-btn {
+  border: 0;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  .icon {
+    height: 18px;
+    width: 18px;
+    path {
+      fill: $text-color;
+    }
+  }
+}
+
+.primary-btn {
+  background-color: $btn-color;
+  color: $btn-text-color;
+}
+.btn:hover {
+  filter: brightness(110%);
+}
+.secondary-btn {
+  background-color: $secondary-color;
+  color: white;
+  border: 0;
+}
+
+.section-header {
+  height: 50px;
+}
+
+.section-body {
+  height: calc(100% - 50px);
+}
+
+li {
+  list-style-type: none;
+}
+
+.section-nav {
+  border: 1px solid $border-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  li {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+  }
+  h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 2px;
+    padding: 0 10px;
+  }
+  .dot {
+    position: absolute;
+    background: $secondary-color;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    right: 5px;
+    &.up {
+      top: 5px;
+    }
+    &.down {
+      bottom: 5px;
+    }
+
+  }
+  .icon {
+    height: 12px;
+  }
+}

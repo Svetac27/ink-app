@@ -1,0 +1,20 @@
+{
+    "username": "User Name",
+    "password": "Password",
+    "your_username": "Your User Name",
+    "your_password": "Your Password",
+    "login": "Login",
+    "first_name": "Name",
+    "last_name": "Last Name",
+    "parent_name": "Parent Name",
+    "email": "Email",
+    "address": "Address",
+    "phone": "Phone",
+    "user": "User",
+    "group": "Group",
+    "payment": "Payment",
+    "demands": "Demands",
+    "debts": "Debts",
+    "invoice": "Invoice",
+    "withdraw": "Withdraw"
+}

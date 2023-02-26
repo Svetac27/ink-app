@@ -1,26 +1,59 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="wrapper">
+    <LoginComponent v-if="!log" @clicked="onLogin" class="login" content="Ink Inc." logoimg="{{getImgUrl(logo)}}"/>
+    <InkApp logoimg="{{getImgUrl(logo)}}" v-if="log"/>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LoginComponent from './components/major/LoginComponent.vue'
+import InkApp from './components/major/InkApp.vue'
 
 export default {
   name: 'App',
+  data(){
+    return {
+      log: true    
+    }
+  },
   components: {
-    HelloWorld
+    LoginComponent,
+    InkApp
+  },
+  methods: {
+    getImgUrl(logo) {
+      return require("./assets/ident/" + logo);
+    },
+    onLogin(loginData) {
+      this.log = loginData;
+    }
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import './assets/ident/ident.scss';
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: $grey-text;
+}
+.wrapper {
+  height: 97vh;
+  background-color: $secondary-color;
+  background-image: url(./assets/ident/ink_background.png);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-size: cover;
+  .login {
+    margin: auto 0;
+    width: 20%;
+    float: right;
+  }
 }
 </style>

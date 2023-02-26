@@ -1,0 +1,20 @@
+{
+    "username": "Korisničko Ime",
+    "password": "Lozinka",
+    "your_username": "Vaše Korisničko Ime",
+    "your_password": "Vaša Lozinka",
+    "login": "Prijavi se",
+    "first_name": "Ime",
+    "last_name": "Prezime",
+    "parent_name": "Ime roditelja",
+    "email": "Email",
+    "address": "Adresa",
+    "phone": "Telefon",
+    "user": "Korisnik",
+    "group": "Grupa",
+    "payment": "Plaćanje",
+    "demands": "Potraživanja",
+    "debts": "Dugovanja",
+    "invoice": "Faktura",
+    "withdraw": "Isplata"
+}

@@ -1,0 +1,46 @@
+{
+    "main": [
+        {
+            "key": "students",
+            "order":    100,
+            "active":   true,
+            "active_tab": true
+        },
+        {
+            "key": "groups",
+            "order":    200,
+            "active":   true,
+            "active_tab": false
+        },
+        {
+            "key": "payments",
+            "order":    300,
+            "active":   true,
+            "active_tab": false
+        },
+        {
+            "key": "demands",
+            "order":    400,
+            "active":   true,
+            "active_tab": false
+        },
+        {
+            "key": "debts",
+            "order":    500,
+            "active":   true,
+            "active_tab": false
+        },
+        {
+            "key": "invoices",
+            "order":    600,
+            "active":   true,
+            "active_tab": false
+        },
+        {
+            "key": "withdraws",
+            "order":    700,
+            "active":   true,
+            "active_tab": false
+        }
+    ]
+}

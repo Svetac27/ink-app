@@ -1,0 +1,102 @@
+[
+    {
+        "key": "number",
+        "active": true,
+        "up" : false
+    },
+    {
+        "key": "group",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "name",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "surname",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "parent",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "email",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "phone",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "address",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "ammount",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "status",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "date 1",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "date 2",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "date 3",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "date 4",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "date 5",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "date 6",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "date 7",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "date 8",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "rate 9",
+        "active": false,
+        "up" : false
+    },
+    {
+        "key": "rate 10",
+        "active": false,
+        "up" : false
+    }
+]

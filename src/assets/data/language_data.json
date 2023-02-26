@@ -1,0 +1,72 @@
+{
+    "en": {
+        "username": "User Name",
+        "password": "Password",
+        "your_username": "Your User Name",
+        "your_password": "Your Password",
+        "login": "Login",
+        
+        "close": "Close",
+        "open": "Open",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "new": "New",
+        
+        "company_name": "Company Name",
+        "logo": "Logo",
+        "language": "Language",
+        
+        "first_name": "Name",
+        "last_name": "Last Name",
+        "parent_name": "Parent Name",
+        "email": "Email",
+        "address": "Address",
+        "phone": "Phone",
+        
+        "students": "Students",
+        "user": "User",
+        "group": "Group",
+        "groups": "Groups",
+        "payments": "Payments",
+        "demands": "Demands",
+        "debts": "Debts",
+        "invoices": "Invoices",
+        "withdraws": "Withdraws"
+    },
+    "sr": {
+        "username": "Korisničko Ime",
+        "password": "Lozinka",
+        "your_username": "Vaše Korisničko Ime",
+        "your_password": "Vaša Lozinka",
+        "login": "Prijavi se",
+
+        "close": "Zatvori",
+        "open": "Otvori",
+        "save": "Sačuvaj",
+        "cancel": "Otkaži",
+        "delete": "Obriši",
+        "new": "Novi",
+        
+        "company_name": "Naziv Firme",
+        "logo": "Logo",
+        "language": "Jezik",
+        
+        "first_name": "Ime",
+        "last_name": "Prezime",
+        "parent_name": "Ime roditelja",
+        "email": "Email",
+        "address": "Adresa",
+        "phone": "Telefon",
+        
+        "students": "Učenici",
+        "user": "Korisnik",
+        "group": "Grupa",
+        "groups": "Grupe",
+        "payments": "Plaćanja",
+        "demands": "Potraživanja",
+        "debts": "Dugovanja",
+        "invoices": "Fakture",
+        "withdraws": "Isplate"
+    }
+}
